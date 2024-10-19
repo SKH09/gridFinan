@@ -79,7 +79,7 @@ function App() {
           </div>
           {/* 4 Grids */}
 
-          <div className="grid grid-cols-5 grid-rows-3 gap-4">
+          <div className="grid grid-cols-5 grid-rows-3 gap-4 pb-6">
             {/* 1. Pots */}
             <div className="col-span-3">
               <div className=" bg-white  text-black rounded-lg p-6">
@@ -137,7 +137,7 @@ function App() {
             </div>
 
             {/* 2. Budgets */}
-            <div className="row-span-2 col-span-2 bg-white  p-6">
+            <div className="row-span-2 col-span-2 bg-white p-6 rounded-lg">
               <div className="flex items-center justify-between pb-6 text-sm">
                 <h2 className="flex-1 text-left font-bold text-lg text-black">
                   Budgets
@@ -202,7 +202,7 @@ function App() {
                 {/*Profiles */}
                 <div className="flex flex-col gap-4 text-xs">
                   {/* profile-1 */}
-                  <div className=" flex justify-between items-end border-b-2 pb-5 pt-2">
+                  <div className=" flex justify-between items-end border-b-2 pb-4 ">
                     <div className="flex justify-center items-center gap-2">
                       <img
                         src="/assets/1.jpg"
@@ -219,7 +219,7 @@ function App() {
 
                   {/* profile-2 */}
 
-                  <div className="flex justify-between items-end border-b-2 pb-5 pt-2">
+                  <div className="flex justify-between items-end border-b-2 pb-4">
                     <div className="flex justify-center items-center gap-2">
                       <img
                         src="/assets/2.jpg"
@@ -236,7 +236,7 @@ function App() {
 
                   {/* profile-3 */}
 
-                  <div className="flex justify-between items-end border-b-2 pb-5 pt-2">
+                  <div className="flex justify-between items-end border-b-2 pb-4 ">
                     <div className="flex justify-center items-center gap-2">
                       <img
                         src="/assets/3.jpg"
@@ -253,7 +253,7 @@ function App() {
 
                   {/* profile-4 */}
 
-                  <div className="flex justify-between items-end border-b-2 pb-5 pt-2">
+                  <div className="flex justify-between items-end border-b-2 pb-4 ">
                     <div className="flex justify-center items-center gap-2">
                       <img
                         src="/assets/4.jpg"
@@ -270,7 +270,7 @@ function App() {
 
                   {/* profile-5 */}
 
-                  <div className="flex justify-between items-end pb-5 pt-2">
+                  <div className="flex justify-between items-end pb-2 ">
                     <div className="flex justify-center items-center gap-2">
                       <img
                         src="/assets/5.jpg"
@@ -305,17 +305,17 @@ function App() {
                 {/* 3-Bills */}
                 <div className="flex flex-col gap-3">
                   {/*Bill-1*/}
-                  <div className="flex items-center justify-between bg-[#f8f5f0] px-3 py-3 border-l-4 border-[#277c77] rounded-md">
+                  <div className="flex items-center justify-between bg-[#f8f5f0] px-3 py-2 border-l-4 border-[#277c77] rounded-md">
                     <p>Pay Bills</p>
                     <p className="font-bold">$190.00</p>
                   </div>
                   {/* Bill-2*/}
-                  <div className="flex items-center justify-between bg-[#f8f5f0] px-3 py-3 border-l-4 border-[#f1cdab] rounded-md">
+                  <div className="flex items-center justify-between bg-[#f8f5f0] px-3 py-2 border-l-4 border-[#f1cdab] rounded-md">
                     <p>Total Upcoming</p>
                     <p className="font-bold">$194.98</p>
                   </div>
                   {/*Bill-3*/}
-                  <div className="flex items-center justify-between bg-[#f8f5f0] px-3 py-3 border-l-4 border-[#81c8d7] rounded-md">
+                  <div className="flex items-center justify-between bg-[#f8f5f0] px-3 py-2 border-l-4 border-[#81c8d7] rounded-md">
                     <p>Due Soon</p>
                     <p className="font-bold">$59.98</p>
                   </div>
